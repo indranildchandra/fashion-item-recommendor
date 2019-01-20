@@ -1,12 +1,12 @@
 # Overview
 For each user of the client's e-commerce website, predict 10 relevant items from the items protfolio that the user may be interested in and hence help in increasing client's engagement with the users.
 
-## Problem Statement
+#### Problem Statement
 Capillary would like to welcome you to build a recommender system for its top fashion retail client to increase the client's user engagement. The main goal is to come up with an algorithm which will recommend best suited items from the inventory to a user in order to improve his/her shopping experience. On the basis of user transaction history, collaborative information and item features, recommend the ranked top 10 items for a user which means that the participant has to rank the recommendations for any user in the order of choice.
  
 As part of this challenge, you are provided a retail brand dataset with user transaction details, item tagged fashion images, item attributes and other metadata.
 
-## Data Dictionary
+#### Data Dictionary
 1. Train.zip contains the following:
 
    •	train.csv
@@ -33,7 +33,7 @@ As part of this challenge, you are provided a retail brand dataset with user tra
     Variable	       Description
     UserId	         Unique ID for user
  
-## Evaluation Metric
+#### Evaluation Metric
 The evaluation metric for this contest is Mean Average Precision at K  - MAP@K (K = 10)
 
 
