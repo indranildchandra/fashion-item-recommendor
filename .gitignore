@@ -1,0 +1,10 @@
+# Directories to be excluded
+src/helper_scripts/.ipynb_checkpoints/
+src/helper_scripts/__pycache__/
+src/predictor_scripts/.ipynb_checkpoints/
+src/predictor_scripts/__pycache__/
+
+# Files to be excluded
+data/training_dataset/product_image_id_list.csv
+data/training_dataset/*.npy
+models/*.h5
